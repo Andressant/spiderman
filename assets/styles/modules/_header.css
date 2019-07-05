@@ -1,0 +1,16 @@
+header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url(../../images/hero--bg__large.jpg) no-repeat top;
+    background-size: cover;
+}
+
+.spider-logo {
+    width: 900px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    padding: 0 18px;
+    transform: translate(-50%, -50%);
+}

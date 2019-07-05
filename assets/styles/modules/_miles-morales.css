@@ -1,0 +1,19 @@
+.miles-morales__images {
+    width: 100%;
+    display: inline-block;
+    margin: 75px 0;
+}
+
+.miles-morales__image-01,
+.miles-morales__image-02 {
+    display: block;
+}
+
+@media only screen and (min-width: 767px) {
+
+    .miles-morales__image-01,
+    .miles-morales__image-02 {
+        width: 50%;
+        float: left;
+    }
+}

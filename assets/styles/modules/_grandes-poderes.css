@@ -1,0 +1,37 @@
+.grandes-poderes {
+    position: relative;
+    height: 100vh;
+    background: url(../../images/grandes-poderes__large.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.grandes-poderes__text {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #FF0000;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 767px) {
+
+    .grandes-poderes__text {
+        top: 85%;
+        font-size: 2rem;
+    }
+}
+
+
+@media only screen and (min-width: 1347px) {
+
+    .grandes-poderes__text {
+        font-size: 2.5rem;
+    }
+}

@@ -1,0 +1,19 @@
+@media only screen and (min-width: 767px) {
+
+    .adquirindo-poderes__box-01,
+    .adquirindo-poderes__box-02 {
+        width: 50%;
+        float: left;
+    }
+
+    .adquirindo-poderes__box-2 {
+        position: relative;
+    }
+
+    .adquirindo-poderes__image-01 {
+        position: absolute;
+        display: inline;
+        top: 120px;
+        left: -115%;
+    }
+}

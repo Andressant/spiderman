@@ -1,0 +1,12 @@
+footer {
+    max-width: 6rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media only screen and (min-width: 767px) {
+
+    footer {
+        max-width: 8rem;
+    }
+}

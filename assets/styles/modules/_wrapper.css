@@ -1,0 +1,15 @@
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-left: 22px;
+    padding-right: 22px;
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 767px) {
+
+    .wrapper {
+        padding-left: 42px;
+        padding-right: 42px;
+    }
+}

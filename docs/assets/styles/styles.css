@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    color: #fff;
+    background-color: #000;
+    font-family: 'Lato', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-content {
+    color: #ccc;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.text-content--big {
+    font-size: 1.3125rem;
+}
+
+.text-content--medium {
+    font-size: 1.25rem;
+}
+
+.text-content--white {
+    color: #fff;
+}
+
+.text-content--centered {
+    text-align: center;
+}
+
+.text-content--narrow {
+    max-width: 450px;
+}
+
+.text-content--narrow--medium {
+    max-width: 630px;
+}
+
+.text-content-b-margin {
+    margin-bottom: 2em;
+}
+
+.headline {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.125;
+}
+
+.headline--small {
+    font-size: 1.28rem;
+}
+
+.headline--big {
+    font-size: 2.5rem;
+}
+
+.headline--centered {
+    text-align: center;
+}
+
+.headline--b-margin {
+    margin-bottom: 1.5em;
+}
+
+.headline--b-margin-small {
+    margin-bottom: 0.8em;
+}
+
+@media only screen and (min-width: 767px) {
+
+    .text-content {
+        font-weight: 400;
+    }
+
+    .headline {
+        font-size: 2.25rem;
+    }
+
+    .headline--small {
+        font-size: 2rem;
+    }
+
+    .headline--big {
+        font-size: 2.625rem;
+    }
+
+    .headline--b-margin {
+        margin-bottom: 1em;
+    }
+}
+
+@media only screen and (min-width: 1439px) {
+
+    .text-content {
+        font-weight: 300;
+    }
+
+    .text-content--narrow {
+        max-width: 600px;
+    }
+
+    .headline {
+        font-size: 2.5rem;
+    }
+
+    .headline--big {
+        font-size: 3.2rem;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+
+    .adquirindo-poderes__box-01,
+    .adquirindo-poderes__box-02 {
+        width: 50%;
+        float: left;
+    }
+
+    .adquirindo-poderes__box-2 {
+        position: relative;
+    }
+
+    .adquirindo-poderes__image-01 {
+        position: absolute;
+        display: inline;
+        top: 120px;
+        left: -115%;
+    }
+}
+
+footer {
+    max-width: 6rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media only screen and (min-width: 767px) {
+
+    footer {
+        max-width: 8rem;
+    }
+}
+
+.grandes-poderes {
+    position: relative;
+    height: 100vh;
+    background: url(../images/grandes-poderes__large.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.grandes-poderes__text {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #FF0000;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 767px) {
+
+    .grandes-poderes__text {
+        top: 85%;
+        font-size: 2rem;
+    }
+}
+
+
+@media only screen and (min-width: 1347px) {
+
+    .grandes-poderes__text {
+        font-size: 2.5rem;
+    }
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url(../images/hero--bg__large.jpg) no-repeat top;
+    background-size: cover;
+}
+
+.spider-logo {
+    width: 900px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    padding: 0 18px;
+    transform: translate(-50%, -50%);
+}
+
+.miles-morales__images {
+    width: 100%;
+    display: inline-block;
+    margin: 75px 0;
+}
+
+.miles-morales__image-01,
+.miles-morales__image-02 {
+    display: block;
+}
+
+@media only screen and (min-width: 767px) {
+
+    .miles-morales__image-01,
+    .miles-morales__image-02 {
+        width: 50%;
+        float: left;
+    }
+}
+
+.page-section {
+    padding: 4.5rem 0;
+}
+
+.page-section--large {
+    padding: 8rem 0;
+}
+
+.page-section--top--large {
+    padding-top: 8rem;
+}
+
+.page-section-no-padding-top {
+    padding: 0 0 4.5rem 0;
+}
+
+
+@media only screen and (min-width: 767px) {
+    .page-section {
+        padding: 6rem 0;
+    }
+}
+
+@media only screen and (min-width: 1439px) {
+
+    .page-section {
+        padding: 7rem 0;
+    }
+}
+
+.peter-parker {
+    background: url(../images/peter-parker.png) no-repeat right;
+    background-size: 90%;
+}
+
+@media only screen and (min-width: 767px) {
+
+    .peter-parker {
+        background: url(../images/peter-parker.png) no-repeat right;
+        background-size: 50%;
+    }
+}
+
+@media only screen and (min-width: 1439px) {
+
+    .peter-parker {
+        background: url(../images/peter-parker.png) no-repeat right;
+        background-size: 40%;
+    }
+}
+
+.poderes__image {
+    margin: 45px 0;
+}
+
+@media only screen and (min-width: 767px) {
+
+    .row__6 {
+        float: left;
+        width: 50%;
+    }
+
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .row--gutters {
+        margin-right: -65px;
+    }
+
+    .row--gutters>div {
+        padding-right: 65px;
+    }
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-left: 22px;
+    padding-right: 22px;
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 767px) {
+
+    .wrapper {
+        padding-left: 42px;
+        padding-right: 42px;
+    }
+}

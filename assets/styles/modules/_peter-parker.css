@@ -1,0 +1,20 @@
+.peter-parker {
+    background: url(../../images/peter-parker.png) no-repeat right;
+    background-size: 90%;
+}
+
+@media only screen and (min-width: 767px) {
+
+    .peter-parker {
+        background: url(../../images/peter-parker.png) no-repeat right;
+        background-size: 50%;
+    }
+}
+
+@media only screen and (min-width: 1439px) {
+
+    .peter-parker {
+        background: url(../../images/peter-parker.png) no-repeat right;
+        background-size: 40%;
+    }
+}

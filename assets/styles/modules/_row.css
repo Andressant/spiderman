@@ -1,0 +1,21 @@
+@media only screen and (min-width: 767px) {
+
+    .row__6 {
+        float: left;
+        width: 50%;
+    }
+
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .row--gutters {
+        margin-right: -65px;
+    }
+
+    .row--gutters>div {
+        padding-right: 65px;
+    }
+}
